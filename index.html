@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hemanth Nayaki | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+Hemanth Nayaki
+</div>
+
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certifications">Certificates</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<div class="hero">
+
+<div class="hero-text">
+
+<h1>Hello, I'm <span>Hemanth Nayaki</span></h1>
+
+<h2>Aspiring Java Developer & AIML Student</h2>
+
+<p>
+Passionate about Java Development,
+Data Structures & Algorithms,
+Web Development and Artificial Intelligence.
+</p>
+
+<a href="#contact" class="btn">
+Contact Me
+</a>
+
+<div class="social-links">
+
+<a href="https://github.com/hemanthnayaki" target="_blank">
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/in/hemanthnayaki?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+LinkedIn
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="profile.jpg" alt="Hemanth Nayaki">
+
+</div>
+
+</div>
+
+</header>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<article>
+
+<p>
+I am a passionate AIML student at
+CMR Institute of Technology.
+
+My interests include Java Programming,
+Data Structures & Algorithms,
+Full Stack Development,
+Artificial Intelligence,
+Machine Learning and Problem Solving.
+
+Currently preparing for Software Development
+roles and internships.
+</p>
+
+</article>
+
+</section>
+
+<section id="skills">
+
+<h2>Technical Skills</h2>
+
+<div class="skills-grid">
+
+<div class="card">Java</div>
+<div class="card">Python</div>
+<div class="card">HTML5</div>
+<div class="card">CSS3</div>
+<div class="card">JavaScript</div>
+<div class="card">MySQL</div>
+<div class="card">Git</div>
+<div class="card">GitHub</div>
+<div class="card">OOPs</div>
+<div class="card">DSA</div>
+
+</div>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<table>
+
+<thead>
+
+<tr>
+<th>Qualification</th>
+<th>Institution</th>
+<th>Score</th>
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+<td>B.Tech AIML</td>
+<td>CMR Institute of Technology</td>
+<td>CGPA 7.9</td>
+</tr>
+
+<tr>
+<td>Intermediate</td>
+<td>TMR Junior College</td>
+<td>95.3%</td>
+</tr>
+
+<tr>
+<td>SSC</td>
+<td>TMREIS</td>
+<td>CGPA 10.0</td>
+</tr>
+
+</tbody>
+
+<tfoot>
+
+<tr>
+<td colspan="3">
+Academic Excellence
+</td>
+</tr>
+
+</tfoot>
+
+</table>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project-container">
+
+<div class="project-card">
+
+<h3>Portfolio Website</h3>
+
+<p>
+Responsive portfolio built using
+HTML, CSS and JavaScript.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Smart Traffic Violation Management System (OpenCV)</h3>
+
+<p>
+Developed an AI-powered traffic monitoring system that detects traffic violations using computer vision techniques. Utilized OpenCV for real-time vehicle detection, lane monitoring, signal violation detection, and automated evidence capture to improve traffic law enforcement.
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Resume Builder(Web Technologies)</h3>
+
+<p>
+Developed a responsive Resume Builder web application that enables users to create, customize, preview, and download professional resumes through an intuitive interface. Implemented dynamic form handling, real-time preview, and PDF generation using modern web technologies.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="certifications">
+
+<h2>Certifications</h2>
+<div class="cert-container">
+
+<div class="cert-card">
+<img src="certificates/smartcoder.jpg"
+onclick="openCertificate(this.src)">
+<h3>Smart Coder</h3>
+</div>
+
+<div class="cert-card">
+<img src="certificates/tcs-ion.jpg"
+onclick="openCertificate(this.src)">
+<h3>TCS iON Career Edge</h3>
+</div>
+
+<div class="cert-card">
+<img src="certificates/ey-ai.jpg"
+onclick="openCertificate(this.src)">
+<h3>EY & Microsoft AI Skills Passport</h3>
+</div>
+
+<div class="cert-card">
+<img src="certificates/acpc.jpg"
+onclick="openCertificate(this.src)">
+<h3>ACPC AlgoHour 3.0</h3>
+</div>
+
+</div>
+
+</section>
+<section id="contact">
+
+<h2>Contact Me</h2>
+<form id="contactForm">
+
+    <input type="text" placeholder="Your Name" required>
+
+    <input type="email" placeholder="Your Email" required>
+
+    <select>
+        <option>Internship Opportunity</option>
+        <option>Job Opportunity</option>
+        <option>Project Collaboration</option>
+    </select>
+
+    <textarea placeholder="Your Message"></textarea>
+
+    <label>
+        <input type="checkbox">
+        Available For Internship
+    </label>
+
+    <button type="submit">
+        Send Message
+    </button>
+
+</form>
+
+<div id="successMessage" class="success-message">
+    <h3>🎉 Thank You!</h3>
+    <p>
+        Thank you for contacting me.
+        I have received your message and will get back to you as soon as possible.
+    </p>
+</div>
+
+</section>
+<div id="certificateModal" class="modal">
+
+<span class="close" onclick="closeCertificate()">&times;</span>
+
+<img class="modal-content" id="certificateImage">
+
+</div>
+<footer>
+
+<p>
+© 2026 Hemanth Nayaki
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
